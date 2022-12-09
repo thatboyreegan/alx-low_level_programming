@@ -6,3 +6,4 @@ This is a C program that prints the alphabet in lowercase, followed by a new lin
 5-print_numbers.c is a C program that prints all single digit numbers of base 10 starting from 0, followed by a new line
 6-print_numberz.c is a C program that prints all single digit numbers of base 10 starting from 0, followed by a new line using putchar function
 7-print_tebahpla.c is a C program that prints the lowercase alphabets in reverse
+8-print_base16.c is a C program that prints all the numbers of base 16 in lowercase, followed by a new line.
