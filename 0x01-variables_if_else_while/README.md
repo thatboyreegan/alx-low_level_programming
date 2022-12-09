@@ -8,3 +8,4 @@ This is a C program that prints the alphabet in lowercase, followed by a new lin
 7-print_tebahpla.c is a C program that prints the lowercase alphabets in reverse
 8-print_base16.c is a C program that prints all the numbers of base 16 in lowercase, followed by a new line.
 9-print_comb.c is a C program that prints all possible combinations of single-digit numbers
+100-print_comb3.c is a C program that prints all possible different combinations of two digits
