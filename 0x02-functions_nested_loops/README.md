@@ -4,3 +4,4 @@
 3-islower.c is a function that for lowercase characters.
 4-isalpha.c is a a function that checks for alphabetic order...returns 1 if present and 0 if otherwise.
 5-sign.c is a function that prints the sign of a number
+6-abs.c is a function that computes the absolute value of an integer
