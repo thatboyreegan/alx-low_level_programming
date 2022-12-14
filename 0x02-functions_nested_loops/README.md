@@ -10,3 +10,4 @@
 9-times_table.c is a function that prints the 9 times table, starting with 0.
 10-add.c is a function that adds two integers and returns the result.
 11-print_to_98.c is a a function that prints all natural numbers from n to 98, followed by a new line.
+100-times_table.c is a  function that prints the n times table, starting with 0.
