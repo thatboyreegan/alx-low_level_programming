@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -8,7 +9,7 @@
  * Return: largest number
  */
 
-int largets_number(int a, int b, int c)
+int largest_number(int a, int b, int c)
 {
 	int largest;
 
