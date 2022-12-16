@@ -6,11 +6,11 @@
  * @b: second integer
  * Return: mutiplication result for the two integers
  */
-int mul(int a,int b)
+int mul(int a, int b)
 {
 	int c;
 
 	c = a * b;
 
-	return(c);
+	return (c);
 }
