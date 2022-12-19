@@ -4,3 +4,4 @@
 3-puts.c is a program that prints a string, followed by a new line, to stdout.
 4-print_rev.c is a program that prints a string, in reverse, followed by a new line.
 5-rev_string.c is a program that reverses a string
+6-puts2.c is a program that prints every other character of a string, starting with the first character, followed by a new line.
