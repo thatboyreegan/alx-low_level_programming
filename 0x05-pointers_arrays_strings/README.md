@@ -8,3 +8,4 @@
 7-puts_half.c is a program that prints half of a string, followed by a new line.
 8-print_array.c is a program that prints n elements of an array of integers, followed by a new line.
 9-strcpy.c is a program that copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest.
+101-keygen.c is a program that generates random valid passwords for the program 101-crackme.
