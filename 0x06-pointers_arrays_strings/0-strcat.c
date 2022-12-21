@@ -1,9 +1,9 @@
 #include "main.h"
 /**
  * _strcat - contanates two strings.
- * @dest: pointer to a char.
- * @src: pointer to a char.
- * Return: dest.
+ * @dest: pointer to destination.
+ * @src: pointer to source.
+ * Return: destination of string.
  */
 char *_strcat(char *dest, char *src)
 {
@@ -13,7 +13,7 @@ char *_strcat(char *dest, char *src)
 	j = 0;
 	while (dest[i] != '\0')
 	{
-		dest++;
+		i++;
 	}
 
 	while (src[j] != '\0')
