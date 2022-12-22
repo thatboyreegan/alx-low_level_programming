@@ -3,13 +3,13 @@
  * _strncat - contanates two strings.
  * @dest: pointer to destination string.
  * @src: pointer to source string.
- * @n: the number of strings to be contanated.
+ * @n: number of bytes to be contanated.
  *
  * Return: pointer to destination string.
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	int i , j;
+	int i, j;
 
 	i = 0;
 	while (dest[i] != '\0')
