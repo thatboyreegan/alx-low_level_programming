@@ -7,3 +7,4 @@
 6-cap_string.c is a program that capitalizes all words of a string.
 7-leet.c is a program that encodes a string into 1337.
 101-print_number.c is a program that print an integer.
+102-magic.c is a program that prints a[2] = 98, followed by a new line.
