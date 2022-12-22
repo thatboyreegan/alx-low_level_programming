@@ -5,3 +5,4 @@
 4-rev_array.c is a program that reverses an array
 5-string_toupper.c is a string that changes all lowercase letters of a string to uppercase.
 6-cap_string.c is a program that capitalizes all words of a string.
+7-leet.c is a program that encodes a string into 1337.
