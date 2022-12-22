@@ -6,3 +6,4 @@
 5-string_toupper.c is a string that changes all lowercase letters of a string to uppercase.
 6-cap_string.c is a program that capitalizes all words of a string.
 7-leet.c is a program that encodes a string into 1337.
+101-print_number.c is a program that print an integer.
