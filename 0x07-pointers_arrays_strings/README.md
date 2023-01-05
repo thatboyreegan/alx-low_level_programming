@@ -1,1 +1,1 @@
-This directory contains more tasts on pointers, arrays and strings
+This directory contains more tasks on pointers, arrays and strings
