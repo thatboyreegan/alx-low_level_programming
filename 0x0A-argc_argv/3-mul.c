@@ -1,13 +1,14 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
- * main - multiplies two numbers and prints the resuls.
- * @argc: argument count.
- * @argv: argument vector.
- * Return: 0 if succesful, 1 if an error occurs.
+ * main - multiples two numbers.
+ * @argc: number of command line arguments.
+ * @argv: array that contains the program command line arguments.
+ * Return: 0 for success.
  */
 int main(int argc, char *argv[])
 {
-	if (argv != 3)
+	if (argc != 3)
 	{
 		printf("Error\n");
 		return (1);
