@@ -1,4 +1,5 @@
-#include "lists.c"
+#include "lists.h"
+
 /**
  * add_nodeint_end - adds a new node at the end of a linked list.
  * @head: reference pointer to the head node.
@@ -7,9 +8,11 @@
 */
 listint_t *add_nodeint_end(listint_t **head, const int n)
 {
-	listint_t *new = *head, *current;
+	listint_t *current, *temp;
 
 	current = malloc(sizeof(listint_t));
+
+	temp = *head;
 
 	if (current == NULL)
 	{
@@ -18,10 +21,16 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 	current->n = n;
 	current->next = NULL;
 
-	while (new != NULL)
+	if (temp == NULL)
 	{
-		new = new->next;
+		*head = current;
 	}
-	new->next = current;
+	else
+	{
+		while (temp->next)
+			temp = temp->next;
+		temp->next = current;
+	}
 	return (current);
 }
+
