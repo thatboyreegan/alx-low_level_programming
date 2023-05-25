@@ -8,7 +8,7 @@ def island_perimeter(grid):
     Args:
         grid (list of lists): description of the island
     """
-    perimter = 0
+    perimeter = 0
     for i in range(len(grid)):
         for j in range(len(grid[i])):
             if grid[i][j] == 1:
@@ -19,4 +19,4 @@ def island_perimeter(grid):
                 if j > 0 and grid[i][j - 1] == 1:
                     perimeter -= 2
 
-        return perimeter
+    return perimeter
